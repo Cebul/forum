@@ -1,0 +1,123 @@
+$questcolor: #E0F0FF;
+
+
+
+body
+{
+	background-color: #fff;
+}
+.header
+{
+	margin-top: 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+
+	h2
+	{
+		float:left; 
+		margin-left: 143px;
+	}
+	p
+	{
+		margin-left: 200px;
+		margin-top: 15px;
+	}
+	.options
+	{
+		float:left; 
+		margin-top: 30px;
+	}
+	.sorting
+	{
+		float:left;
+		margin-left: 49px; 
+		margin-top:30px;
+	}
+	.icon-plus-circle
+	{
+		float:left;
+		margin-left: 20px;
+	}
+	.icon-dot-circled
+	{
+		float:left;
+		margin-left: 135px;
+		margin-top: 30px;
+	}
+	.searchbox
+	{
+		background-color:#fafafa;
+		border: 1px solid #ddd;
+		width: 600px;
+		height: 40px;
+		margin-left: 30px;
+	}
+	.searchbut
+	{
+		margin-left: 18px; 
+		width: 160px; 
+		height: 40px; 
+		border-radius: none; 
+		border: 1px solid #000;
+	}
+
+}
+.quest
+{
+	background-color: #F9EDA2;
+	height: 1100px;
+	position: relative;
+	z-index: -1;
+
+	i
+	{
+		font-size: 70px;
+		float:left;
+	}
+}
+.questionsbase1
+{
+	background-color: #FBFBFB ;
+	width: 1100px;
+	height: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -550px;
+}
+.questionsbase2
+{
+	background-color: #fff;
+	width: 780px;
+	height: 330px;
+	position: absolute;
+	left: 50%;
+	margin-left: -340px;
+	border-bottom: 1px solid #ccc;
+}
+.questionsbase3
+{
+	background-color: #fff;
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -290px;
+	margin-top: 80px;
+	z-index: 100;
+	border: 1px solid #000;
+}
+.singlequestion1
+{
+	background-color: $questcolor;
+	width: 600px;
+	height: 280px;
+	position: absolute;
+	left: 50%;
+	margin-left: -340px;
+}
+.questtext
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
